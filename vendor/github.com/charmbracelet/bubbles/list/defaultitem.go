@@ -94,7 +94,7 @@ type DefaultDelegate struct {
 // NewDefaultDelegate creates a new delegate with default styles.
 func NewDefaultDelegate() DefaultDelegate {
 	return DefaultDelegate{
-		ShowDescription: true,
+		ShowDescription: false,
 		Styles:          NewDefaultItemStyles(),
 		height:          2,
 		spacing:         1,
